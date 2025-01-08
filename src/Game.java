@@ -35,8 +35,8 @@ public class Game {
                 System.out.println("right!\nmistakes: " + mistakesCount);
             }
             else{
+                mistakesCount++;
                 System.out.println("wrong!\nmistakes: " + mistakesCount);
-                    mistakesCount++;
             }
             drawGallow(mistakesCount);
         }
